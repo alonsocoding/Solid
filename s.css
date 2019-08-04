@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.background-s {
+  background: linear-gradient(#ff6ec4, #7873f5);
+}
+
+.card {
+  width: 1200px;
+  margin-top: 50px;
+}
+
+pre {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #ff6ec4;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-left: 100px;
+}

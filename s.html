@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SOLID</title>
+    <link rel="stylesheet" href="s.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="nav navbar-nav navbar-logo mx-auto">
+          <li class="nav-item">
+            <a class="nav-link title" href="index.html">SOLID</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav pull-sm-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Become Writer</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="background-s">
+      <div class="container">
+        <div class="row">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Single Responsability Principle</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                A Class should only have one Responsability
+              </h6>
+              <pre class="card-text">
+                       public class Employee
+                       {
+                           public string Name { get; set; }
+                           public string Lastname { get; set; }
+
+                           public void Insert(Employee e)
+                           {
+                               // Responsability 1
+                           }
+
+                           public void GenerateReport(Employee e)
+                           {
+                               // Responsability 2
+                           }
+                       }
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
